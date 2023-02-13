@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bunlde.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modriel/background-generator.git"
+  },
+  "author": "Modriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Modriel/background-generator/issues"
+  },
+  "homepage": "https://github.com/Modriel/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.00.0"
+  }
+}
